@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int n,i,j,count;
+   cin>> n;
+   char ch;
+  
+   i=0;
+  
+    ch='A';
+   while(i<n){
+     j=1;
+     ch='A'+i;
+       while(j<=n){
+          cout<<ch;
+          ch++;
+          j++;
+       }
+       cout<<endl;
+       
+      
+       i++;
+   }
+    return 0;
+}
